@@ -41,7 +41,7 @@
     triangleOne = triangleArea(10, 13)
     triangleTwo = triangleArea(16.5, 20.3)
     triangleThree = triangleArea(16.5, 20.3)
-    triangleFour = triangleArea(20.3, 16)
+    triangleFour = triangleArea(20.3, 16.5)
     triangleFive = triangleArea(7.8, 5.6)
     triangleSix = triangleArea(9.3, 12.4)
 
@@ -52,7 +52,7 @@
     `)
 
     function triangleComparison(areaOne, areaTwo) {
-        if (areaOne == areaTwo) {
+        if (areaOne === areaTwo) {
                 return `Both triangles are the same size`
         }   else if (areaOne > areaTwo) {
                 return `Triangle one is larger than triangle two`
